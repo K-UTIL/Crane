@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "Constant.js",
+  "sourceRoot": "",
+  "sources": [
+    "Constant.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAAA;;OAEG;IACH;QAAA;QAIA,CAAC;QAHU,wBAAe,GAAG,qCAAqC,CAAC;QACxD,yBAAgB,GAAG,sCAAsC,CAAC;QAErE,eAAC;KAAA,AAJD,IAIC;IAJY,4BAAQ"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "new_tower_crane.js",
+  "sourceRoot": "",
+  "sources": [
+    "new_tower_crane.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAGA,CAAC,CAAC;IAEF,CAAC,CAAC,CAAC"
+}

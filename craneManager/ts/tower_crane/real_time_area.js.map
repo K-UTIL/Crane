@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "real_time_area.js",
+  "sourceRoot": "",
+  "sources": [
+    "real_time_area.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAIA,CAAC,CAAC;QACE,IAAI,WAAW,GAAe,IAAI,4BAAW,CAAC,MAAM,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,CAAC;QAC1E,IAAI,EAAE,GAAG,WAAW,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;QAG/B,OAAO,CAAC,GAAG,CAAC,EAAE,CAAC,CAAC;IACpB,CAAC,CAAC,CAAC"
+}

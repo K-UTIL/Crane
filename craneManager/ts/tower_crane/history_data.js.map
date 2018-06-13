@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "history_data.js",
+  "sourceRoot": "",
+  "sources": [
+    "history_data.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAGA,CAAC,CAAC;IAEF,CAAC,CAAC,CAAC"
+}

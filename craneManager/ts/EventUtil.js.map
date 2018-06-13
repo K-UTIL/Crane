@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "EventUtil.js",
+  "sourceRoot": "",
+  "sources": [
+    "EventUtil.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAAA;QAAA;QAcA,CAAC;QAAD,gBAAC;IAAD,CAAC,AAdD,IAcC;IAdY,8BAAS"
+}

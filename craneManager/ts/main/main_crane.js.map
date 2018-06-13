@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "main_crane.js",
+  "sourceRoot": "",
+  "sources": [
+    "main_crane.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAIA,CAAC,CAAC;QACE,IAAI,UAAU,GAAG,IAAI,0BAAU,EAAE,CAAC;IAGtC,CAAC,CAAC,CAAC"
+}

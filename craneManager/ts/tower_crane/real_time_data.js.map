@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "real_time_data.js",
+  "sourceRoot": "",
+  "sources": [
+    "real_time_data.ts"
+  ],
+  "names": [],
+  "mappings": ";;;IAGA,CAAC,CAAC;IAEF,CAAC,CAAC,CAAC"
+}

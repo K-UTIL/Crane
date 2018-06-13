@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>塔机工程</title>
+    <link rel="stylesheet" type="text/css" href="/CraneManager/lib/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="/CraneManager/css/main.css"/>
+    <script type="text/javascript" src="/CraneManager/lib/requirejs/require.js" data-main="/CraneManager/main"></script>
+    <script>
+        require(['/CraneManager/ts/main/main_crane.js']);
+    </script>
+</head>
+<body style="">
+<ul class="layui-nav" id="head-nav" style="color: #ff6633">
+    <li class="layui-nav-item"><a href="javascript:void 0" site="realTimeData">实时数据</a></li>
+    <li class="layui-nav-item layui-this">
+        <a href="javascript:;javascript:void 0" site="realtimeArea">在线工地</a>
+        <dl class="layui-nav-child" id="real_time_area">
+            <!--<dd><a site="site" href="javascript:void 0" >工地1</a></dd>-->
+            <!--<dd><a site="site" href="javascript:void 0" >工地2</a></dd>-->
+            <!--<dd><a site="site" href="javascript:void 0">工地3</a></dd>-->
+        </dl>
+    </li>
+    <li class="layui-nav-item"><a href="javascript:void 0" site="history">历史查询</a></li>
+    <li class="layui-nav-item">
+        <a href="javascript:;" site="plan">施工规划</a>
+        <!--<dl class="layui-nav-child">-->
+        <!--<dd><a href="javascript:void 0">移动模块</a></dd>-->
+        <!--<dd><a href="javascript:void 0">后台模版</a></dd>-->
+        <!--<dd class="layui-this"><a href="javascript:void 0">选中项</a></dd>-->
+        <!--<dd><a href="javascript:void 0">电商平台</a></dd>-->
+        <!--</dl>-->
+    </li>
+    <li class="layui-nav-item"><a href="javascript:void 0" site="community">社区</a></li>
+    <li class="layui-nav-item"><a href="javascript:void 0" site="test">测试</a></li>
+</ul>
+
+<iframe id="main_iframe" src="../tower_crane/new_tower_crane.html"></iframe>
+</body>
+</html>
