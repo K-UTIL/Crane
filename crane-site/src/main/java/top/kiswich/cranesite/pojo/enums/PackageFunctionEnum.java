@@ -1,4 +1,4 @@
-package top.kiswich.cranesite.pojo;
+package top.kiswich.cranesite.pojo.enums;
 
 public enum PackageFunctionEnum {
     LOGIN(0x4),

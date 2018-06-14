@@ -1,8 +1,10 @@
-package top.kiswich.cranesite.pojo;
+package top.kiswich.cranesite.pojo.response;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import top.kiswich.cranesite.pojo.RangeShipEntity;
+import top.kiswich.cranesite.pojo.enums.ResponseStatus;
 
 import java.util.List;
 
@@ -11,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 public class ResponseRangePackage {
     private Integer craneNumber;
-    private Integer status;
+    private ResponseStatus status;
     private Integer totalPackageNumber;
     private Integer packageNumber;
     private List<RangeShipEntity> rangeShipEntities;

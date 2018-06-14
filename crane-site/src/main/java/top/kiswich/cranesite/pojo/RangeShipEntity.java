@@ -3,6 +3,7 @@ package top.kiswich.cranesite.pojo;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import top.kiswich.cranesite.pojo.enums.RangShipEnum;
 
 @Setter
 @Getter

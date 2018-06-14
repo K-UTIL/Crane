@@ -1,8 +1,9 @@
-package top.kiswich.cranesite.pojo;
+package top.kiswich.cranesite.pojo.request;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import top.kiswich.cranesite.pojo.enums.PackageFunctionEnum;
 
 @Setter
 @Getter
