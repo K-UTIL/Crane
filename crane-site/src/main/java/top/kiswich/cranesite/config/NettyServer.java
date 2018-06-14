@@ -7,6 +7,7 @@ import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import top.kiswich.cranesite.decode.DataUpdateDecoder;
 import top.kiswich.cranesite.decode.TestDecoder;
 import top.kiswich.cranesite.encode.TestEncoder;
 import top.kiswich.cranesite.handle.TestHandler;
@@ -34,7 +35,7 @@ public class NettyServer {
                 .childHandler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {
-                        ch.pipeline().addLast(new TestDecoder(), new TestEncoder(), new TestHandler());
+                        ch.pipeline().addLast(new DataUpdateDecoder(), new TestEncoder(), new TestHandler());
                     }
                 })
                 .option(ChannelOption.SO_BACKLOG, 128)

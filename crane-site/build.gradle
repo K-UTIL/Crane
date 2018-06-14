@@ -30,8 +30,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-validation')
     // https://mvnrepository.com/artifact/io.netty/netty-all
-    compile group: 'io.netty', name: 'netty-all', version: '4.1.15.Final'
-
+//    compile group: 'io.netty', name: 'netty-all', version: '4.1.15.Final'
+    compile 'org.apache.shiro:shiro-spring-boot-starter:1.4.0-RC2'
 
     runtime('mysql:mysql-connector-java')
     compileOnly('org.projectlombok:lombok')

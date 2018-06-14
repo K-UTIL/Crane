@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Crane.iml" filepath="$PROJECT_DIR$/.idea/Crane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crane-site.iml" filepath="$PROJECT_DIR$/.idea/modules/crane-site.iml" />
       <module fileurl="file://$PROJECT_DIR$/crane-site/crane-site.iml" filepath="$PROJECT_DIR$/crane-site/crane-site.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/crane-site_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crane-site_main.iml" group="crane-site" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/crane-site_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crane-site_test.iml" group="crane-site" />

@@ -11,5 +11,5 @@ import top.kiswich.cranesite.pojo.enums.PackageFunctionEnum;
 public class RequestTokenPackage {
     private Integer towerCrane;
     private PackageFunctionEnum functionEnum = PackageFunctionEnum.LOGIN;
-    private byte[] password;
+    private String password;
 }
